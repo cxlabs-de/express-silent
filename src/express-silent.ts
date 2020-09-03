@@ -1,16 +1,17 @@
 import { Application, response } from 'express';
-import { Response } from 'express-serve-static-core';
 
-declare module 'express-serve-static-core' {
-  export interface Response {
-    silentStatus(code: number): this;
+declare global {
+  namespace Express {
+    export interface Response {
+      silentStatus(code: number): this;
 
-    silentRedirect(location: string): this;
-  }
+      silentRedirect(location: string): this;
+    }
 
-  export interface Application {
-    baseUrl?: string;
-    parent?: Application;
+    export interface Application {
+      baseUrl?: string;
+      parent?: this;
+    }
   }
 }
 
