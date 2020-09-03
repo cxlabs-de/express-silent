@@ -1,6 +1,6 @@
 {
   "name": "@cxlabs-de/express-silent",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Add methods to respond to queries silently",
   "main": "index.js",
   "types": "types",
