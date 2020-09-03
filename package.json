@@ -2,10 +2,10 @@
   "name": "@cxlabs-de/express-silent",
   "version": "1.0.0",
   "description": "Add methods to respond to queries silently",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "types",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rm -rf lib; rm -rf types/lib",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
@@ -36,6 +36,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "dist/**"
+    "lib/!(*.map)",
+    "types"
   ]
 }
