@@ -1,6 +1,6 @@
 {
   "name": "@cxlabs-de/express-silent",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Add methods to respond to queries silently",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,7 +33,7 @@
     "url": "git+https://github.com/cxlabs-de/express-silent.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "dist/**"
