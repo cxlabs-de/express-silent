@@ -16,8 +16,8 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [],
-  "author": "CX Labs",
-  "license": "UNLICENSED",
+  "author": "CX Labs GmbH",
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.9",
     "@types/node": "^14.14.13",
@@ -38,6 +38,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
+    "LICENSE",
     "lib/!(*.map)",
     "types"
   ]
