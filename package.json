@@ -30,10 +30,7 @@
   "peerDependencies": {
     "express": "^4.17.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cxlabs-de/express-silent.git"
-  },
+  "repository": "github:cxlabs-de/express-silent",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
