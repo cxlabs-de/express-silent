@@ -19,7 +19,7 @@
   "author": "CX Labs GmbH",
   "license": "MIT",
   "devDependencies": {
-    "@types/express": "^4.17.9",
+    "@types/express": "^4.17.11",
     "@types/node": "^14.14.13",
     "express": "^4.17.1",
     "prettier": "^2.2.1",
